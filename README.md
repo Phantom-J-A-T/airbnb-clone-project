@@ -240,3 +240,47 @@ Offers administrative tools to manage users, listings, and transactions.
 Admins can oversee platform activity, handle reported issues, and ensure compliance with platform policies.
 
 ---
+
+
+---
+
+## 🔐 API Security
+
+Security is a fundamental aspect of the Airbnb Clone project. Since the platform handles sensitive information such as user credentials, payment details, and booking data, it’s essential to implement multiple layers of protection across the system.
+
+### 🪪 Authentication
+Ensures that only verified users can access their accounts or perform actions.  
+- **Implementation:** Uses JWT (JSON Web Tokens) or OAuth 2.0 for secure login sessions.  
+- **Importance:** Prevents unauthorized access and identity theft by validating each user’s identity before granting access to restricted resources.
+
+### 🧾 Authorization
+Determines what actions a user is allowed to perform within the platform.  
+- **Implementation:** Role-based access control (RBAC) — distinguishing between guests, hosts, and administrators.  
+- **Importance:** Protects sensitive operations such as property management or admin functions from being accessed by unauthorized users.
+
+### 🧱 Input Validation & Data Sanitization
+Prevents injection attacks (like SQL injection or XSS) by validating and sanitizing all incoming data.  
+- **Implementation:** Use Django’s built-in validation mechanisms and serializers from Django REST Framework.  
+- **Importance:** Ensures that malicious or malformed inputs cannot compromise the database or frontend integrity.
+
+### 🚦 Rate Limiting & Throttling
+Limits the number of requests a user or client can make within a given timeframe.  
+- **Implementation:** DRF’s throttling system or API gateways (like Nginx or Cloudflare).  
+- **Importance:** Protects the API from brute-force attacks, denial-of-service (DoS) attempts, and abuse of resources.
+
+### 🔒 Data Encryption
+Secures all sensitive data both in transit and at rest.  
+- **Implementation:** Use HTTPS with SSL/TLS for all API requests, and encrypt stored passwords using bcrypt or Argon2.  
+- **Importance:** Prevents data leaks and protects sensitive information such as user credentials and payment details.
+
+### 💳 Payment Security
+Ensures that financial transactions are handled safely through verified gateways.  
+- **Implementation:** Integration with secure third-party services like Stripe or PayPal using tokenized payments.  
+- **Importance:** Protects users’ financial information from exposure and fraud.
+
+### 🧠 Security Auditing & Logging
+Tracks system activity to detect suspicious actions or breaches.  
+- **Implementation:** Use Django’s logging framework and monitoring tools like Sentry or ELK Stack.  
+- **Importance:** Helps detect security incidents early, supports compliance, and assists in forensic analysis after an event.
+
+---
