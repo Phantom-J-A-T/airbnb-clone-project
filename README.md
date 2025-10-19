@@ -84,3 +84,35 @@ Coordinates the entire project lifecycle and ensures timely delivery.
 ---
 
 
+---
+
+## 🧰 Technology Stack
+
+Below are the core technologies used in the Airbnb Clone project, along with their specific purposes within the system architecture.
+
+### 🖥️ Backend
+- **Django:** A high-level Python web framework that simplifies building secure and maintainable web applications. It powers the backend logic and handles routing, authentication, and API endpoints.
+- **Django REST Framework (DRF):** An extension of Django used to build RESTful APIs, allowing seamless communication between the frontend and backend.
+- **GraphQL (via Graphene-Django):** Enables efficient and flexible data querying by allowing clients to request only the data they need.
+- **PostgreSQL:** A robust relational database system used to store and manage user, listing, and booking data securely and efficiently.
+
+### 💻 Frontend
+- **React.js:** A powerful JavaScript library used to build a responsive, dynamic, and interactive user interface for the web app.
+- **Next.js:** A React framework for server-side rendering and optimized page performance, improving SEO and load speed.
+- **Tailwind CSS:** A utility-first CSS framework used to design sleek, modern, and fully responsive layouts.
+
+### ☁️ DevOps & Deployment
+- **Docker:** Used to containerize the application, ensuring consistency across development, testing, and production environments.
+- **Nginx:** A high-performance web server that handles request routing and acts as a reverse proxy for the backend.
+- **GitHub Actions:** Automates CI/CD pipelines for testing, building, and deploying the application.
+- **AWS / Render / Vercel:** Cloud platforms for hosting both the backend and frontend, ensuring scalability and high availability.
+
+### 🧪 Testing & Quality Assurance
+- **Pytest:** Framework for testing Django and API logic to ensure code reliability.
+- **Jest:** JavaScript testing framework used to test React components and frontend logic.
+- **Postman:** API testing tool for verifying RESTful and GraphQL endpoints.
+
+---
+
+
+
