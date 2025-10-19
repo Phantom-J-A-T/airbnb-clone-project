@@ -284,3 +284,34 @@ Tracks system activity to detect suspicious actions or breaches.
 - **Importance:** Helps detect security incidents early, supports compliance, and assists in forensic analysis after an event.
 
 ---
+
+
+---
+
+## 🚀 CI/CD Pipeline
+
+### 🧠 What is CI/CD?
+**Continuous Integration (CI)** and **Continuous Deployment (CD)** are automated processes that streamline software development, testing, and deployment.  
+They ensure that every new code change is automatically built, tested, and deployed without manual intervention.
+
+### 💡 Why It’s Important
+- **Consistency:** Ensures all environments (development, staging, and production) remain synchronized.  
+- **Speed:** Accelerates the release cycle by automating repetitive tasks like testing and deployment.  
+- **Quality:** Automatically runs test suites, ensuring new changes don’t break existing functionality.  
+- **Reliability:** Reduces human error by using automated workflows for code integration and release.
+
+### 🧰 Tools Used
+- **GitHub Actions:** Automates workflows for building, testing, and deploying the app whenever code is pushed or merged.  
+- **Docker:** Containerizes the application, ensuring consistent behavior across environments.  
+- **Docker Compose:** Manages multi-container setups for services like the backend, database, and frontend.  
+- **Render / AWS / Vercel:** Deployment platforms used to host both the backend API and frontend interface.  
+- **pytest / Jest:** Testing frameworks integrated into the CI pipeline to validate backend and frontend logic before deployment.
+
+### 🧩 Example Workflow
+1. Developer pushes code to the main branch or opens a pull request.  
+2. GitHub Actions triggers the CI workflow — linting, running tests, and building Docker images.  
+3. If all tests pass, the CD workflow deploys the updated containers to the production environment.  
+4. Notifications or logs confirm successful deployment.
+
+---
+
