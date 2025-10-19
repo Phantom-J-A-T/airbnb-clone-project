@@ -32,3 +32,55 @@ This project is a full-stack clone of Airbnb, designed to simulate the platform�
 1. Clone the repo:
    ```bash
    git clone https://github.com/<your-username>/airbnb-clone-project.git
+
+   ---
+
+## 👥 Team Roles
+
+Building the Airbnb Clone requires collaboration across several technical roles. Below are the key roles and their responsibilities, inspired by standard software development practices and the ITRex Group’s team structure.
+
+### 🧑‍💻 Frontend Developer
+Responsible for creating the user interface and ensuring a smooth, responsive user experience.  
+- Builds reusable React components.
+- Implements responsive layouts using Tailwind CSS.
+- Integrates frontend with backend APIs.
+- Ensures accessibility and performance optimization.
+
+### ⚙️ Backend Developer
+Handles server-side logic, APIs, and data flow between the frontend and the database.  
+- Designs and implements RESTful APIs using Node.js and Express.
+- Manages authentication and authorization (JWT, sessions).
+- Integrates with cloud services (e.g., file storage, payment systems).
+- Ensures backend scalability and security.
+
+### 🗃️ Database Administrator (DBA)
+Oversees the database structure, performance, and data integrity.  
+- Designs database schema for users, listings, and bookings.
+- Optimizes queries and manages indexing.
+- Handles backup, replication, and recovery.
+- Ensures data consistency and security.
+
+### 🧠 UX/UI Designer
+Focuses on the design and usability of the platform.  
+- Creates wireframes and mockups for core pages.
+- Defines color schemes, typography, and overall design language.
+- Conducts usability testing to refine user experience.
+- Collaborates with frontend developers to implement design systems.
+
+### 🔐 DevOps Engineer
+Ensures smooth deployment, integration, and maintenance of the application.  
+- Automates builds, tests, and deployments using CI/CD pipelines.
+- Manages environments (development, staging, production).
+- Monitors performance and uptime.
+- Implements security and scaling solutions.
+
+### 🧭 Project Manager
+Coordinates the entire project lifecycle and ensures timely delivery.  
+- Defines milestones, tasks, and sprint goals.
+- Facilitates communication between all team members.
+- Tracks progress using Agile methodologies (Scrum/Kanban).
+- Manages risk and scope changes effectively.
+
+---
+
+
