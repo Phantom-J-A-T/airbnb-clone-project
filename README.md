@@ -124,6 +124,48 @@ Good UX also reduces customer support requests, improves brand credibility, and 
 
 ---
 
+---
+
+### 🎨 Design System Specifications
+
+#### 🎨 Color Styles
+| **Color Name** | **Hex Code** | **Usage** |
+|----------------|--------------|------------|
+| **Primary Blue** | `#2563EB` | Buttons, active links, and highlights |
+| **Secondary Yellow** | `#FACC15` | Call-to-action buttons and accent elements |
+| **Neutral Gray** | `#6B7280` | Text for descriptions and muted content |
+| **Background White** | `#FFFFFF` | Main background for pages and cards |
+| **Error Red** | `#DC2626` | Error messages and form validations |
+| **Success Green** | `#16A34A` | Success alerts and confirmation messages |
+
+These colors ensure accessibility with sufficient contrast while maintaining a professional and modern aesthetic consistent with Airbnb’s visual tone.
+
+---
+
+#### ✍️ Typography
+| **Element** | **Font Family** | **Font Weight** | **Font Size** | **Usage** |
+|--------------|----------------|-----------------|----------------|------------|
+| **Headings (H1–H3)** | `Poppins, sans-serif` | 600–700 (Semi-Bold to Bold) | 24–36px | Section titles, property names |
+| **Body Text** | `Inter, sans-serif` | 400 (Regular) | 14–16px | General text, descriptions |
+| **Buttons & Labels** | `Poppins, sans-serif` | 500 (Medium) | 14–18px | Action elements and navigation |
+| **Captions & Footnotes** | `Inter, sans-serif` | 300–400 (Light–Regular) | 12px | Secondary details and tooltips |
+
+Typography choices emphasize readability, visual hierarchy, and modern aesthetics that align with contemporary web standards.
+
+---
+
+### 🧠 Importance of Identifying Design Properties in Mockups
+Defining the design properties (such as color palette, typography, and spacing) during mockup creation ensures **consistency**, **clarity**, and **scalability** throughout the development process.  
+- It allows developers to maintain uniform styling across all components.  
+- Speeds up collaboration between designers and engineers by providing a single source of truth.  
+- Improves accessibility and responsiveness across various devices.  
+- Ensures visual coherence when expanding or modifying UI features later in development.  
+
+By clearly identifying design properties early, the team reduces confusion, enhances efficiency, and delivers a **visually cohesive and user-centered product**.
+
+---
+
+
 
 
 ---
