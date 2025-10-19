@@ -106,6 +106,37 @@ Key objectives include:
 - **Interactive Elements:** Real-time validation and dynamic updates using React states.  
 - **Accessibility Standards:** Compliance with WCAG 2.1 for inclusive user experience.
 
+
+---
+
+## 🎨 UI Component Patterns
+
+To ensure consistency, scalability, and maintainability in the frontend design, this project will adopt reusable UI component patterns.  
+Each component will follow a modular structure, allowing easy integration across different views and pages.
+
+### 🧱 Planned Components
+
+| **Component** | **Description** | **Purpose in the Project** |
+|----------------|-----------------|-----------------------------|
+| **Navbar** | A responsive navigation bar located at the top of every page, including links to Home, Listings, Bookings, and User Profile. | Provides quick access to major sections of the site and ensures consistent navigation. |
+| **Property Card** | Displays property information such as image, title, price per night, location, and rating. | Used throughout the property listing and search results to showcase available accommodations. |
+| **Footer** | A bottom section that includes links to About, Contact, Privacy Policy, and social media handles. | Offers additional navigation and company details, reinforcing credibility and accessibility. |
+| **Search Bar** | Allows users to search properties by destination, date, or guest count. | Simplifies user interaction by providing instant access to filtered results. |
+| **Booking Form** | Contains fields for check-in/check-out dates, number of guests, and payment options. | Facilitates property reservations and ensures smooth booking flow. |
+| **Review Card** | Displays user reviews with ratings and comments. | Builds trust and provides user-generated feedback to potential renters. |
+
+---
+
+### 💡 Importance of UI Component Patterns
+
+Using a component-based approach improves:
+- **Reusability:** Components can be reused across pages, reducing redundant code.  
+- **Consistency:** Ensures the same design and behavior for repeated UI elements.  
+- **Maintainability:** Easier to update and debug since each component is self-contained.  
+- **Scalability:** Simplifies adding new features without disrupting the existing UI flow.
+
+---
+
 ---
 
 ### 🖼️ Primary Page Layouts
