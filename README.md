@@ -114,5 +114,88 @@ Below are the core technologies used in the Airbnb Clone project, along with the
 
 ---
 
+---
+
+## 🗃️ Database Design
+
+The Airbnb Clone project uses a **relational database model** (PostgreSQL) to store and manage structured data. The key entities and their relationships are designed to support user management, property listings, bookings, reviews, and payments.
+
+### 🧑‍💼 1. Users
+Represents all users of the platform — guests and hosts.
+- **Fields:**
+  - `id`: Unique identifier for each user.
+  - `full_name`: The user's full name.
+  - `email`: Unique email used for authentication.
+  - `password_hash`: Securely stored hashed password.
+  - `role`: Defines if the user is a guest, host, or admin.
+- **Relationships:**
+  - A user (host) can have multiple properties.
+  - A user (guest) can make multiple bookings and leave reviews.
+
+---
+
+### 🏠 2. Properties
+Represents rental listings created by hosts.
+- **Fields:**
+  - `id`: Unique property ID.
+  - `title`: Name or short description of the listing.
+  - `description`: Detailed information about the property.
+  - `price_per_night`: Cost of one night’s stay.
+  - `location`: City and country where the property is located.
+- **Relationships:**
+  - Each property belongs to one host (user).
+  - A property can have multiple bookings and reviews.
+
+---
+
+### 📅 3. Bookings
+Stores all booking transactions between guests and hosts.
+- **Fields:**
+  - `id`: Unique booking ID.
+  - `check_in_date`: Start date of stay.
+  - `check_out_date`: End date of stay.
+  - `total_price`: Total cost for the stay duration.
+  - `status`: Indicates if booking is pending, confirmed, or canceled.
+- **Relationships:**
+  - Each booking belongs to one user (guest) and one property.
+  - A booking can have one related payment record.
+
+---
+
+### 💬 4. Reviews
+Captures user feedback on properties after stays.
+- **Fields:**
+  - `id`: Unique review ID.
+  - `rating`: Numeric score (1–5).
+  - `comment`: Text review written by the guest.
+  - `created_at`: Timestamp when the review was posted.
+- **Relationships:**
+  - Each review is written by one guest.
+  - Each review belongs to one property.
+
+---
+
+### 💳 5. Payments
+Tracks payment information for completed bookings.
+- **Fields:**
+  - `id`: Unique payment ID.
+  - `booking_id`: Reference to the related booking.
+  - `amount`: Amount paid.
+  - `payment_method`: Payment type (credit card, PayPal, etc.).
+  - `status`: Indicates if payment is successful, failed, or pending.
+- **Relationships:**
+  - Each payment is linked to a single booking.
+  - A user can have multiple payments through different bookings.
+
+---
+
+### 🔗 Entity Relationships Summary
+- **User ↔ Property:** One-to-Many (a host can own many properties).  
+- **User ↔ Booking:** One-to-Many (a guest can make many bookings).  
+- **Property ↔ Booking:** One-to-Many (a property can be booked many times).  
+- **Property ↔ Review:** One-to-Many (a property can have many reviews).  
+- **Booking ↔ Payment:** One-to-One (each booking has one payment record).
+
+---
 
 
