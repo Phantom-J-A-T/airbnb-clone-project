@@ -167,6 +167,37 @@ By clearly identifying design properties early, the team reduces confusion, enha
 
 
 
+---
+
+## 👥 Project Roles and Responsibilities
+
+A well-defined team structure ensures clear communication, smooth workflow, and accountability.  
+Below are the primary roles and their responsibilities within the project:
+
+| **Role** | **Key Responsibilities** | **Contribution to Project Success** |
+|-----------|---------------------------|------------------------------------|
+| **Project Manager (PM)** | Oversees project planning, scheduling, and progress tracking. Ensures milestones are met and manages communication between stakeholders and the team. | Keeps the team organized and ensures timely delivery within scope and budget. |
+| **Product Owner (PO)** | Defines the product vision, gathers requirements, and prioritizes features in the backlog. Aligns business needs with technical execution. | Ensures the final product meets business goals and user expectations. |
+| **Scrum Master** | Facilitates Agile processes, removes roadblocks, and ensures the team follows Scrum principles. Conducts daily standups, sprint planning, and retrospectives. | Improves productivity, promotes collaboration, and ensures smooth iteration cycles. |
+| **Frontend Developers** | Develop and implement the user interface using technologies like React, HTML, CSS, and JavaScript. Focus on responsive and accessible design. | Create a visually appealing, user-friendly experience that directly impacts user engagement. |
+| **Backend Developers** | Build and maintain the server, database, and API logic using frameworks such as Django REST or Node.js. Handle data flow, authentication, and integrations. | Ensure system reliability, security, and performance for smooth backend operations. |
+| **UI/UX Designers** | Design intuitive layouts, define the visual style, create mockups and wireframes. Ensure usability and aesthetic alignment. | Enhance the overall user experience and maintain design consistency. |
+| **QA/Testers** | Perform unit, integration, and user acceptance testing. Identify bugs, verify fixes, and ensure the app meets quality standards before release. | Maintain product quality and prevent defects from reaching production. |
+| **DevOps Engineers** | Manage deployment, automation, CI/CD pipelines, and infrastructure monitoring. Use tools like Docker and GitHub Actions. | Improve deployment speed, ensure reliability, and streamline development workflows. |
+
+---
+
+### 💡 Summary
+Each role plays a crucial part in the project lifecycle:  
+- **Managers and owners** ensure direction and alignment with goals.  
+- **Developers and designers** create the product.  
+- **Testers and DevOps** ensure it’s stable, secure, and efficiently deployed.  
+
+Together, this team structure guarantees **collaboration, quality assurance, and continuous improvement** throughout the project’s development.
+
+---
+
+
 
 ---
 
